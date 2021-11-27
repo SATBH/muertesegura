@@ -45,3 +45,7 @@
 	gap: 2rem;
 }
 
+/* theming */
+.bg-green {
+	background-color: green;
+}

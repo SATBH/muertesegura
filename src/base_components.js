@@ -26,6 +26,9 @@ const Div = genericComponent('div')
 const Link = ({classes,style, text, href}) => 
 	genericComponent('a') ({style, text, classes, href})
 
+const Img = ({image, classes, style}) =>
+	genericComponent('img')({src: image, classes,style})
+
 const ComponentList = (propsArray, component) => propsArray.map(component)
 
 const Nav = ({style, classes, routes, link_template, ...props}) => {

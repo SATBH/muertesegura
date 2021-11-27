@@ -1,4 +1,5 @@
 import {centerChildren} from "./classes.js"
+
 const routes = [
 	{
 		text: "home",
@@ -10,7 +11,7 @@ const routes = [
 	}
 ]
 
-const NavBar = Nav({
+const NavBar = () => Nav({
 	classes: " nav gap-2 " + centerChildren,
 	style: {
 		height: "3rem"
