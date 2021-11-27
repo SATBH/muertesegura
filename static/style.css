@@ -1,0 +1,47 @@
+.nav a {
+	text-decoration: none;
+	color: white;
+}
+.nav {
+	background-color: green;
+}
+
+.flex-h {
+	display: flex;
+	justify-content: center;
+}
+
+.flex-v {
+	display:flex;
+	flex-direction: column;
+}
+
+.justify-center {
+	justify-content: center;
+}
+
+.justify-end {
+	justify-content: flex-end;
+}
+
+.justify-around {
+	justify-content: space-around;
+}
+
+
+.align-center {
+	align-items: center;
+}
+
+.align-end {
+	align-items: flex-end;
+}
+
+.align-around {
+	align-items: space-around;
+}
+
+.gap-2 {
+	gap: 2rem;
+}
+
